@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcadSuite | The New Standard in School Management</title>
+    <meta name="description"
+        content="AcadSuite is an all-in-one academic management platform for modern schools. Manage students, staff, fees, reports, and more — all in one place.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎓</span>
+                AcadSuite
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <div class="nav-cta">
+                <button class="btn btn-ghost open-modal-btn">Log In</button>
+                <button class="btn btn-primary open-modal-btn">Book a Demo</button>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileToggle">&#9776;</button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+        <div class="hero-text">
+            <div class="badge">✦ Now in Early Access</div>
+            <h1>
+                School Management.<br>
+                Simplified. Powerful.<br>
+                <em>Built for the Future.</em>
+            </h1>
+            <p class="hero-sub">
+                AcadSuite gives your institution a unified platform to manage students, staff, fees, results, and
+                communications — all in one beautifully intuitive interface.
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-lg open-modal-btn">Book a Demo &rarr;</button>
+                <a href="#features" class="btn btn-outline btn-lg">See Features</a>
+            </div>
+            <div class="hero-social-proof">
+                <div class="trust-avatars">
+                    <span class="avatar">JA</span>
+                    <span class="avatar">FK</span>
+                    <span class="avatar">BO</span>
+                    <span class="avatar">NP</span>
+                </div>
+                <span>Trusted by <strong>50+ Early Access</strong> Institutions</span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-frame">
+                <img src="assets/hero.png" alt="AcadSuite Dashboard" id="heroImg">
+                <!-- Floating cards -->
+                <div class="float-card float-card--1">
+                    <span class="float-icon">&#128200;</span>
+                    <div>
+                        <div class="float-label">Students Enrolled</div>
+                        <div class="float-value">1,240</div>
+                    </div>
+                </div>
+                <div class="float-card float-card--2">
+                    <span class="float-icon">&#10003;</span>
+                    <div>
+                        <div class="float-label">Fees Collected</div>
+                        <div class="float-value">98.4%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== STATS BAR ===================== -->
+    <section class="stats-bar">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Early-Access Schools</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Core Modules</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">99.9%</div>
+                <div class="stat-label">Uptime Guaranteed</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">5 min</div>
+                <div class="stat-label">Average Onboarding Time</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FEATURES TABS ===================== -->
+    <section class="features" id="features">
+        <div class="section-header">
+            <div class="section-tag">Features</div>
+            <h2>Everything your school needs.<br>Nothing it doesn't.</h2>
+            <p>Built from the ground up for Nigerian schools and modern educational institutions worldwide.</p>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="students">Student Management</button>
+            <button class="tab-btn" data-tab="reports">Suite Management</button>
+            <button class="tab-btn" data-tab="fees">Fee Management</button>
+            <button class="tab-btn" data-tab="staff">Staff & Payroll</button>
+        </div>
+
+        <!-- Tab Panels -->
+        <div class="tabs-content">
+            <div class="tab-panel active" id="tab-students">
+                <div class="tab-panel-text">
+                    <h3>A complete view of every student</h3>
+                    <p>Manage admissions, track attendance, monitor academic performance, and generate report cards —
+                        all from a single clean interface.</p>
+                    <ul class="feature-list">
+                        <li>&#10004; Admission & Enrollment Tracking</li>
+                        <li>&#10004; Real-Time Attendance Logging</li>
+                        <li>&#10004; Academic Performance Monitoring</li>
+                        <li>&#10004; Automated Report Card Generation</li>
+                    </ul>
+                    <button class="btn btn-primary open-modal-btn">See It In Action</button>
+                </div>
+                <div class="tab-panel-image">
+                    <img src="assets/students.png" alt="Student Management Feature">
+                </div>
+            </div>
+            <div class="tab-panel" id="tab-reports">
+                <div class="tab-panel-text">
+                    <h3>Insights that drive better decisions</h3>
+                    <p>Generate beautiful, data-rich reports instantly. Understand performance trends at a class, term,
+                        or institution-wide level.</p>
+                    <ul class="feature-list">
+                        <li>&#10004; Visual Analytics & Charts</li>
+                        <li>&#10004; Termly & Annual Reports</li>
+                        <li>&#10004; Teacher Performance Dashboards</li>
+                        <li>&#10004; Exportable PDF & Excel Reports</li>
+                    </ul>
+                    <button class="btn btn-primary open-modal-btn">See It In Action</button>
+                </div>
+                <div class="tab-panel-image">
+                    <img src="assets/reports.png" alt="Reports Feature">
+                </div>
+            </div>
+            <div class="tab-panel" id="tab-fees">
+                <div class="tab-panel-text">
+                    <h3>Fee collection made effortless</h3>
+                    <p>Issue invoices, track payments, send automated reminders, and see outstanding balances at a
+                        glance. No more spreadsheets.</p>
+                    <ul class="feature-list">
+                        <li>&#10004; Invoice & Receipt Generation</li>
+                        <li>&#10004; Online Payment Integration</li>
+                        <li>&#10004; Automated Payment Reminders</li>
+                        <li>&#10004; Outstanding Balance Overview</li>
+                    </ul>
+                    <button class="btn btn-primary open-modal-btn">See It In Action</button>
+                </div>
+                <div class="tab-panel-image">
+                    <img src="assets/hero.png" alt="Fee Management Feature">
+                </div>
+            </div>
+            <div class="tab-panel" id="tab-staff">
+                <div class="tab-panel-text">
+                    <h3>Manage your team with confidence</h3>
+                    <p>Maintain staff records, manage payroll, set roles and permissions, and track staff performance —
+                        all in one place.</p>
+                    <ul class="feature-list">
+                        <li>&#10004; Staff Profiles & Records</li>
+                        <li>&#10004; Payroll Computation</li>
+                        <li>&#10004; Role-Based Access Control</li>
+                        <li>&#10004; Leave & Appraisal Management</li>
+                    </ul>
+                    <button class="btn btn-primary open-modal-btn">See It In Action</button>
+                </div>
+                <div class="tab-panel-image">
+                    <img src="assets/students.png" alt="Staff Management Feature">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-header light">
+            <div class="section-tag white">How It Works</div>
+            <h2>Up and running in minutes, not months.</h2>
+            <p>We make onboarding simple so you can focus on the suite, not setup.</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-num">01</div>
+                <h3>Book a Demo</h3>
+                <p>Talk to our team and get a personalized walkthrough tailored to your institution's needs.</p>
+            </div>
+            <div class="step-arrow">&#8594;</div>
+            <div class="step-card">
+                <div class="step-num">02</div>
+                <h3>We Set You Up</h3>
+                <p>Our team configures the platform for you — branding, modules, user accounts — everything.</p>
+            </div>
+            <div class="step-arrow">&#8594;</div>
+            <div class="step-card">
+                <div class="step-num">03</div>
+                <h3>Go Live</h3>
+                <p>Your suite goes live on AcadSuite. Start managing everything from day one with full support.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <button class="btn btn-white btn-lg open-modal-btn">Start Your Journey &rarr;</button>
+        </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <div class="section-tag">Testimonials</div>
+            <h2>Trusted by Professionals.<br>Backed by Results.</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testi-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>"AcadSuite completely transformed how we manage our school. The fee collection module alone saved us
+                    hours every week."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">AM</div>
+                    <div>
+                        <div class="testi-name">Adewale M.</div>
+                        <div class="testi-role">Principal, Bright Futures Academy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card testi-card--featured">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>"The student management and report generation features are incredibly powerful. I can now generate
+                    300+ report cards in under 5 minutes. Unbelievable."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">FK</div>
+                    <div>
+                        <div class="testi-name">Fatima K.</div>
+                        <div class="testi-role">Head of Administration, Prestige Schools</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>"Onboarding was seamless. The AcadSuite team handled everything and were responsive every step of the
+                    way. I highly recommend it."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">BO</div>
+                    <div>
+                        <div class="testi-name">Bola O.</div>
+                        <div class="testi-role">Proprietor, Scholars International School</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA SECTION ===================== -->
+    <section class="final-cta">
+        <div class="final-cta-inner">
+            <h2>Ready to modernize your<br> school's operations?</h2>
+            <p>Join the growing community of forward-thinking institutions using AcadSuite to run smarter schools.</p>
+            <button class="btn btn-primary btn-xl open-modal-btn">Book A Demo Today &rarr;</button>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🎓</span> AcadSuite
+                </a>
+                <p>The new standard in school management. Built for modern educational institutions.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#" class="open-modal-btn">Book a Demo</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AcadSuite. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ===================== BOOK DEMO MODAL ===================== -->
+    <div class="modal-overlay" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+
+            <!-- Success State -->
+            <div id="successMessage" class="success-state hidden">
+                <div class="success-check">&#10003;</div>
+                <h3>You're on the list!</h3>
+                <p>We've received your request and our team will be in touch within 24 hours to schedule your
+                    personalized demo.</p>
+            </div>
+
+            <!-- Form State -->
+            <div id="formState">
+                <div class="modal-header">
+                    <h2 id="modal-title">Book Your Free Demo</h2>
+                    <p>Fill in your details and we'll get back to you within 24 hours.</p>
+                </div>
+                <form id="demoForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" required placeholder="e.g. Adewale">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" required placeholder="e.g. Mohammed">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Work Email</label>
+                        <input type="email" id="email" required placeholder="you@school.edu">
+                    </div>
+                    <div class="form-group">
+                        <label for="institution">School / Institution Name</label>
+                        <input type="text" id="institution" required placeholder="e.g. Bright Futures Academy">
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Your Role</label>
+                        <select id="role">
+                            <option value="" disabled selected>Select your role</option>
+                            <option>Proprietor / Owner</option>
+                            <option>Principal / Head Teacher</option>
+                            <option>Administrator</option>
+                            <option>IT Manager</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required placeholder="+234 800 000 0000">
+                    </div>
+                    <div id="errorBanner" class="error-banner hidden"></div>
+                    <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                        Confirm &amp; Book Demo
+                    </button>
+                    <p class="form-disclaimer">By submitting, you agree to our <a href="#">Privacy Policy</a>. No spam,
+                        ever.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
